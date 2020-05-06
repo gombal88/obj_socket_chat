@@ -1,0 +1,23 @@
+{
+  "name": "uk.co.objectivity.academy.flutter",
+  "version": "0.1.0",
+  "description": "Chat",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gombal88/obj_socket_chat.git"
+  },
+  "author": "Grzegorz Gondek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gombal88/obj_socket_chat/issues"
+  },
+  "homepage": "https://github.com/gombal88/obj_socket_chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
