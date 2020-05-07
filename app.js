@@ -1,5 +1,5 @@
 // Setup basic express server
-import express, { static } from 'express';
+var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);
@@ -10,7 +10,7 @@ server.listen(port, function () {
 });
 
 // Routing
-app.use(static('public'));
+app.use(express.static('public'));
 
 // Chatroom
 
